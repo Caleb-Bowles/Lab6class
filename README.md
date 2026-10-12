@@ -9,7 +9,7 @@ In this lab you've learned the basics of number theory as it relates to addition
 | Question 3 | Your answers to the question | 25% |
 ## Lab Questions
 ### 1 - How might you add more than two bits together?
-when adding more than two bits together, you must use an XOR and an AND gate to account for the carry bit that occurs when the sum of two bits is greater than 1. 
+when adding more than two bits together, you must use an XOR and an AND gate to account for the carry bit that occurs when the sum of two bits is greater than 1. The carry bit is then used as a third input for the next most significant bit, allowing for the scenarios where the sum is 01 or 11. 
 ### 2 - What is the importance of the XOR gate in an adder?
 The XOR gate captures the sum of two bits when the sum is equal to 1. Thus allowing the and gate to account for scenarios where the sum is equal to 2. 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
